@@ -15,6 +15,7 @@ The r-squared is very low at .001 which mean it can only explain .1 % of the dat
 
 ## Challenges 
 Since bike station and restaurant datasets contain different columns and there are no common data points, it didn't make sense to left join the datasets, because we are only getting the bike station dataset with additional columns that fills with Nan values. After dropping all the Nan values we ended up with an empty dataset. So it has been difficult to join datasets from different API.
+Additon: EDA and data cleaning is done throughout different sections whenever a dataset is requested from the APIs. However, it seem like documentation is a challenge to convey the thought process and organize it in a sequential way. I have tried to highlight them with subsections so hopefully they can be identified more easliy.
 
 ## Future Goals
 Explore more on the datasets and find more relationship between bike station data and POIs. By adding more independent variables there could be a chance of having a model that better predicts the dependant variable.  
